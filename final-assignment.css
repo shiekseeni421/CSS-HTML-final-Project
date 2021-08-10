@@ -1,0 +1,1382 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Poppins:ital,wght@0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+    line-height: 20px;
+    margin: 0px;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+
+p{
+  margin-bottom: 10px;
+  color:#919197;
+  font-size:17px;
+  line-height: 25px;
+}
+a{
+  cursor:pointer
+}
+
+
+.main-background-img{
+  display: none;
+}
+
+
+@media screen and (min-width:400px) {
+
+  .small-device{
+    display: none;
+  }
+
+  .big-background-img{
+    background-position:cover,auto;
+    background-repeat: no-repeat,repeat;
+    background-attachment: scroll,fixed;
+    background-position: 0px 0px 50% 50%;
+    background-image:linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+    background-color: #c1c3cc;
+    height:500px;
+    background-size: cover;
+    background-position:auto, cover;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    position: relative;
+    margin-bottom: 150px;
+
+  }
+
+  body{
+    padding: 20px;
+  }
+
+  .big-logo{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png");
+    height: 135px;
+    width: 125px;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#fff;
+    background-size: 100px;
+    background-color: #e47312;
+    margin-top: 35px;
+  
+    }
+    .big-heading-continer{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .big-headder{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color:#fff;
+      width: 90%;
+      height:95px;
+      position: relative;
+    }
+
+    .big-el{
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      width: 40%;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .bid-hedding-continer{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      margin-top: 35px;
+    }
+
+    .bg-drop-down{
+      display: flex;
+      align-items: center;
+    }
+
+    .bg-drop-down-continer{
+      flex-direction: column;
+      align-items: center;
+      background-color: #fff;
+      width: 150px;
+      display:none;
+      position: absolute;
+      bottom: -160px;
+      right:75px;
+    }
+
+    .bg-drop-down-el{
+      margin: 10px;
+      font-size: 12px;
+    }
+
+
+
+    .div-button-el{
+      background-color: #e47312;
+      height: 95px;
+      width: 200px;
+      margin-left: 20px;
+      margin-right: 0px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight:bold;
+      font-size: 14px;
+      color:#fff;
+      border-width: 0px;
+
+    }
+
+    
+
+    .div-a-el{
+      color:black;
+      margin-left:20px;
+      font-weight:bold;
+      font-size: 14px;
+    }
+
+    .div-a-el-page{
+      color:black;
+      margin-left:0px;
+      font-weight:bold;
+      font-size: 14px;
+      margin-right: 5px;
+    }
+
+    .div-a-el-home{
+      color: #e47312;
+    }
+
+    .div-a-el:hover{
+      color: #e47312;
+    }
+
+    .div-button-el:hover{
+      background-color: rgba(206, 90, 12, 0.70);
+
+    }
+
+    .bg-drop-down:hover .bg-drop-down-continer {
+      display: flex;
+    
+    }
+
+    .bg-continer{
+      width: 50%;
+      margin:95px;
+    }
+
+    .big-main-hedding{
+      font-size: 45px;
+      color: #fff;
+      letter-spacing: 1;
+      text-transform: uppercase;
+
+    }
+
+    .bg-main-discrption{
+      font-size: 20px;
+      color: #fff;
+      letter-spacing: 1;
+      text-transform: uppercase;
+
+    }
+
+
+    .bg-coro-blue{
+      background-color: #0a1229;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size:20px;
+      position: absolute;
+      right: 0px;
+      bottom: 125px;
+     
+      }
+    
+      .bg-hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .big-sub-el{
+        background-image: linear-gradient(8deg,#ff6361,#e47312);
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+        position: absolute;
+        right: 0px;
+        bottom: -65px;
+      }
+
+      .big-each-el{
+        width: 33.3%;
+     
+      }
+
+      .big-view-div {
+        display: inline-block;
+      }
+      
+      .big-View-all {
+        color: #ffff;
+        text-decoration: none;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 13px;
+        line-height: 5px;
+      }
+      
+      .big-view-under-line {
+        height: 2px;
+        border-radius: 25px;
+        margin: 0px;
+        background-color:#fff;
+        visibility: hidden;
+      }
+      
+      .big-view-div:hover .big-view-under-line {
+        visibility: visible;
+      }
+
+      .big-contct-discrption{
+        color: #fff;
+      }
+
+      .get-quer-heigh{
+        height: 45px;
+      }
+
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+  .big-device{
+    display: none;
+  }
+
+  .main-headder{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:#fff;
+    width: 100%;
+  }
+
+  .main-logo{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png");
+  height: 55px;
+  width: 125px;
+  background-color: transparent;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color:#fff;
+  background-size: 100px;
+  background-color: #e47312;
+
+  }
+
+  .file-size{
+    font-size: 30px;
+    padding-right: 10px;
+  }
+
+  .main-background-img{
+    background-position:cover,auto;
+    background-repeat: no-repeat,repeat;
+    background-attachment: scroll,fixed;
+    background-position: 0px 0px 50% 50%;
+    background-image:linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+    background-color: #c1c3cc;
+    height:500px;
+    background-size: cover;
+    background-position:auto, cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .discrption-bg{
+    color: #fff;
+  }
+
+  .bg-continer{
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .button-el{
+    background-color: #e47312;
+    padding: 10px 25px;
+    border-width: 0px;
+    color: white;
+  }
+
+  .bg-coro-blue{
+  background-color: #0a1229;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:20px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+ 
+  }
+
+  .bg-hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  }
+  
+
+
+
+
+
+
+.our-headding{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size:20px;
+  font-weight: bold;
+
+}
+  
+  /* under line property */  
+  .view-div {
+    display: inline-block;
+  }
+  
+  .View-all {
+    color: #808588;
+    text-decoration: none;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 5px;
+  }
+  
+  .view-under-line {
+    height: 2px;
+    border-radius: 25px;
+    margin: 0px;
+    background-color: rgb(247, 112, 22);
+    visibility: hidden;
+  }
+  
+  .view-div:hover .view-under-line {
+    visibility: visible;
+  }
+  
+  /* under line property */
+  
+  /* service div */
+  
+  .service-continer {
+    margin-top: 40px;
+  }
+  
+  
+  .Service-headding {
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  .Service-discrption {
+    color: #808588;
+    font-family: serif;
+    margin-top: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 16px;
+  }
+  
+  .service-under-line {
+    height: 2px;
+    border-radius: 25px;
+    margin: 0px;
+    background-color: rgba(206, 90, 12, 0.904);
+    visibility: hidden;
+  }
+  
+  .view-div:hover .service-under-line {
+    visibility: visible;
+  }
+
+  
+  
+  @media screen and (max-width:400px) {
+    .View-all {
+      font-size:13px;
+    }
+
+    .service-1{
+      margin-bottom: 55px;
+    }
+
+    .main-continer-1{
+      padding: 20px;
+    }
+  }
+  
+  
+  @media screen and (min-width:400px){
+    .service-continer{
+      display:flex;
+      justify-content: space-around;
+    }
+    
+    
+
+    .service-main-continer{
+      width: 80%;
+      margin-top: 55px;
+      margin-bottom: 55px;
+    }
+
+    .service-1{
+      width:33.3%;
+      padding-right:20px;
+    }
+    
+  }
+  
+  /* service div End */
+
+
+  /*WHO WE ARE*/
+
+  .who-are-img{
+    width: 100%;
+    display:inline-block;
+  }
+
+  .who-container-headding{
+    font-family:cursive;
+    text-transform: uppercase;
+  }
+
+  .who-continenet-discr{
+    color: #808588;
+    font-family: serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+
+  
+
+
+  @media screen and (min-width:400px) {
+    .who-are-main{
+      margin-top: 180px;
+      display: flex;
+      justify-content: space-around;
+      width: 80%;
+      box-sizing: border-box;
+    }
+
+    .main-continer-1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .who-container-1{
+     width:55%;
+     margin-right:55px;
+     
+    }
+
+    
+  .who-container-2{
+    width:40%;
+    margin-left:55px;
+  }
+
+  .who-continenet-discr{
+    font-size: 16px;
+    padding-bottom: 10px;
+    line-height: 25px;
+  }
+    
+  }
+
+  /*WHO WE ARE*/
+.number{
+  position: relative;
+}
+
+  .number-text{
+    color: #e47312;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+  }
+
+  .dot-style{
+    padding: 5px;
+    height: 2px;
+    display: inline-block;
+    background-color: #e47312;
+    border-radius: 25px;
+  }
+  
+  .number-main-conti{
+    margin-bottom: 80px;
+    margin-top: 55px;
+  }
+  
+
+
+
+  @media screen and (min-width:400px){
+  .number-main-conti{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  .number-continer{
+    width: 15%;
+    margin-right: 25px;
+  }
+    
+  }
+
+  .section-color-gray{
+    background-color: #f7f8fc;
+    margin: 20px;
+    padding-top: 35px;
+  }
+
+
+  /*lets making*/
+
+  .section-bg-continer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #e47312;
+    background-image: linear-gradient(72deg,#e47312,rgba(120, 35, 65, 0.78)), url("https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg");
+    background-position:auto, cover;
+    background-repeat:repeat, no-repeat;
+    background-attachment: scroll,fixed;
+    background-position: 0px 0px 50% 50%;
+  }
+
+  .section-bg-headding{
+    color: #fff;
+    margin-top: 15px;
+  }
+
+  .section-bg-discrption{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #fff;
+  }
+
+  .view-under-white{
+    background-color: #fff;
+  }
+
+ .get-query{
+  font-size: 16px;
+  color:#fff;
+  
+}
+
+@media screen and (max-width:400px) {
+  
+.section-bg-continer-2{
+  padding: 25px;
+  
+} 
+}
+
+@media screen and (min-width:400px) {
+  
+  .section-bg-continer-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;    
+  padding:35px;
+  text-align: center;
+  } 
+
+  .section-bg-headding{
+    font-size: 35px;
+    letter-spacing: 3px;
+  
+  }
+}
+
+.view-continer{
+  width: 33.3%;
+  position: relative;
+  margin: 10px;
+}
+
+.view-cricle{
+  height: 85px;
+  width: 85px;
+  border-radius: 45px;
+  border-width: 0px;
+  background-image:linear-gradient(65deg,#ff6361,#e47312);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.28s;
+  display: none;
+}
+
+
+.view-continer:hover .view-cricle{
+  display:flex;
+
+}
+
+.project-bg-color:hover{
+  background-color: rgba(12, 11, 11, 0.1);
+  opacity: 0.9;
+}
+
+
+.view-text{
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  line-height: 18px;
+}
+
+
+
+@media screen  and (min-width:400px){
+  .view-cricle{
+  position: absolute;
+  bottom: 0;
+  top: 45%;
+  right: 45%;
+  }
+
+  .img-style{
+    width: 100%;
+  }
+
+  .view-main-container{
+    display: flex;
+  }
+  
+}
+
+@media  screen and (max-width:400px) {
+  .view-cricle{
+  position: absolute;
+  bottom: 0;
+  top:35%;
+  left:110%;
+  }
+
+  .img-style{
+    max-width:300px;
+    
+  }
+  
+}
+
+
+/*team */
+
+.main-hedding-1{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 30px;
+}
+
+.team-continer-1{
+  position: relative;
+  margin-bottom: 10px;
+
+}
+.main-headding-1{
+  text-transform: uppercase;
+  font-size:35px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  z-index: 2;  
+
+}
+
+@media screen and (max-width:400px){
+  .main-headding-1{
+    font-size: 16px;
+  }
+  
+}
+
+.main-headding-2{
+  position: absolute;
+  left:-36px;
+  top:-70px;
+  font-size: 120px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 80px;
+  line-height: 25px;
+  color: rgba(241,241,247,0.4);
+  display: none;
+}
+
+.main-continer-3{
+  top:-400%;
+  left:-35%;
+  font-size: 135px;
+}
+
+.team-img-1{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+.team-discrption{
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.follow-us-continer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e47312;
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top:60%;
+  right:0px
+}
+
+.follow-us-continer i{
+  font-size: 24px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.hr-line{
+  background-color: rgba(241,241,247,0.4);
+  height: 1px;
+  width: 45px;
+}
+
+.tem-continer{
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.team-img-2{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg");
+}
+
+.team-img-3{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg");
+}
+
+.team-img-4{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg");
+}
+
+
+
+@media screen and (max-width:400px) {
+
+  .team-img-1{
+    height: 300px;
+    width: 100%;
+  }
+
+  .tem-continer{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width:400px){
+  .team-img-1{
+    width:100%;
+    height: 350px;
+  }
+
+  
+  .tem-continer{
+    width: 25%;
+    margin: 15px;
+  }
+
+  .tem-continer-main{
+    display: flex;
+
+  }
+
+  .main-headding-2{
+    display: flex;
+  }
+
+}
+
+
+/*clients sestion*/
+
+.client-continer-main{
+  margin-top:80px;
+  width: 100%;
+  padding: 20px;
+}
+
+.client-continer{
+  position: relative;
+
+}
+
+.sub-headding{
+  font-size: 110px;
+  top:-320%;
+  right: -65px;
+}
+
+.client-underline{
+  margin-top: 20px;
+}
+
+.card-div{
+  position: relative;
+  background-color: #fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 35px 15px;
+  margin-bottom: 70px;
+}
+
+.client-pasus{
+  background-image: linear-gradient(8deg,#ff6361,#e47312);
+  border-radius: 65px;
+  color: #fff;
+  line-height: 80px;
+  font-size: 80px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  padding-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -15%;
+  left:38%;
+  z-index: 1;
+  
+}
+
+.client-sub-continer-2{
+  margin-top: 80px;
+
+}
+
+
+
+@media screen and (min-width:400px) {
+
+  .client-sub-continer-1{
+    width: 35%;
+
+  }
+
+  .clent-main-continer{
+    width: 80%;
+  }
+
+  .client-sub-continer-2{
+    display: flex;
+    width: 65%;
+
+  }
+
+  .card-div{
+    width: 90%;
+  }
+
+  .client-continer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+    padding: 20px;
+  }
+
+
+  .client-sub-continer-6{
+    margin-top: 55px;
+  }
+
+  .client-sub-continer-7{
+    margin-left: 55px;
+  }
+  
+}
+
+
+/*Blog*/
+
+.Blog-number{
+  width: 65px;
+  height: 75px;
+  background-image: linear-gradient(8deg,#ff6361,#e47312);
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuber-17{
+  font-size: 35px;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.Blog-month{
+  width: 65px;
+  height: 25px;
+  background-color:#fff;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.month{
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+
+}
+
+.blog-main{
+  position: relative;
+  border-bottom: 0px;
+}
+
+.blog-number-continer{
+  position: absolute;
+  top: 0%;
+  right:0px;
+  margin-bottom: 0px;
+}
+
+.blog-discrption-continer{
+  background-image: linear-gradient(55deg,#ff6361,#e47312);
+  padding: 20px;
+  margin: 0px;
+ 
+}
+
+.blog-hedding{
+  margin-right: 0px;
+  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 26px;
+  color: #ffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.blog-discrption{
+  margin-bottom: 5px;
+  color: hsla(0,0%,100%,0.7);
+}
+
+
+.Blogo-read{
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.blog-hr-line{
+  width: 70px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.blog-img{
+  width:100%;
+  margin: 0px;
+}
+
+.blog-red-continer:hover .blog-hr-line{
+  background-color:blue;
+  
+}
+
+.main-continer-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 125px;
+  margin-bottom: 85px;
+}
+
+
+.blog-main{
+  margin: 20px;
+}
+
+
+@media screen  and (min-width:400px){
+  
+  .blog-main-continer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+
+  .blog-main{
+    width: 33.3%;
+    margin: 10px;
+  }
+  
+  
+}
+
+
+/*logo*/
+
+.blog-hedding{
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 45%;
+}
+
+.log-continer-main{
+  background-image: linear-gradient(55deg,#ff6361,#e47312);
+  padding-bottom: 7px;
+  padding-top: 8px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  
+
+  
+}
+
+.logo-1{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png");
+  background-size: 100px;
+}
+
+.logo-2{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-2w.png");
+  background-size: 100px;
+}
+
+.logo-3{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-3w.png");
+  background-size: 100px;
+}
+
+.logo-4{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-4w.png");
+  background-size: 100px;
+}
+
+.logo-5{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-5w.png");
+  background-size: 100px;
+}
+
+.logo{
+  min-height: 100px;
+  background-color: transparent;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color:#fff;
+}
+
+
+
+.logo-inline-block{
+  max-width: 100%;
+  display: inline-block;
+}
+
+@media screen  and (max-width:400px) {
+  .logo{
+    width: 100%;
+  }
+
+  .blog-hedding{
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo-continer{
+    display: flex;
+   flex-direction: column;
+   
+  }
+  .log-continer-main{
+    margin: 0px;
+  }
+  
+}
+
+@media screen  and (min-width:400px){
+  .logo{
+    width: 33.3%;
+  }
+  
+  .logo-continer{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    margin: 0px;
+    padding-left: 0px;
+  }
+  .log-continer-main{
+    margin: 20px;
+  }
+
+  .hedding-continer{
+    width: 35%;
+    padding-left: 45px;
+  }
+
+  .logo-main-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/*footter*/
+
+
+
+.fotter-main{
+  background-color: #0a1229;
+  border-top: 1px solid #2f3038;
+
+
+}
+
+.fotter-headding{
+  display: flex;
+  align-items: center;
+}
+
+.footter-each{
+  width: 33.3%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+
+
+.headding{
+  color: #fff;
+  line-height: 10px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.under-line-text{
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.under-line{
+  background-color: #fff;
+}
+
+.view-div-continer1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sub-headding{
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.heading-contact-continer{
+  margin-left: 25px;
+}
+.hedding-margin{
+  margin-bottom:0px;
+}
+
+.hr-line-fotter{
+  height: 2px;
+  background-image: linear-gradient(25deg,#ff6361,#e47312);
+  width:200px;
+  padding: 1px;
+  margin-left: 10px;
+}
+
+.contact-headding-1{
+  display: flex;
+}
+
+.dicrption-about{
+  padding: 10px;
+}
+
+@media screen  and (max-width:400px){
+  .footter-each{
+    width: 100%;
+    margin-right: 20px;
+    padding: 20px;
+  }
+  
+}
+
+@media screen  and (min-width:400px){
+
+  .fotter{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+  }
+
+  .footter-each{
+    width: 33.3%;
+    margin-right: 20px;
+  }
+  .fotter-main{
+    width: 85%;
+  }
+
+  .fotter-continer-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .fotter-continer-main{
+    margin-top: 0px;
+  }
+  .log-continer-main{
+    margin-bottom: 0px;
+  }
+
+  .team-continer-1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  
+}
+
+
+.logo-continer-fotter{
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png");
+  height: 100px;
+  width: 150px;
+  background-color: transparent;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color:#fff;
+  background-size: 100px;
+  background-color: #e47312;
+  margin-left: 35px;
+}
+
+
+
+
